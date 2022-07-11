@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+
+  gastrocrm:
+    build:
+      context: .
+      dockerfile: DockerfileDev
+    restart: on-failure
+    env_file:
+      - ./app/credentials.py
+    ports:
+      - 5000:8080
+    volumes:
+      - ./app:/app

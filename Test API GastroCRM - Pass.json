@@ -1,0 +1,4215 @@
+{
+	"id": "44b35e45-749d-4558-a081-ad6ef746c7f7",
+	"name": "GastroCRM REST API",
+	"timestamp": "2022-05-26T23:19:08.637Z",
+	"collection_id": "15146650-8cb43270-b2bc-48f4-ad0c-4a16d827aa43",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 1030,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b5f762d2-125f-4f3c-ba10-d32587ecaf3f",
+			"name": "/api/health",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Health check should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Health check should be \"OK\"": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				12,
+				12,
+				10,
+				10,
+				61,
+				10,
+				10,
+				11,
+				10,
+				11
+			],
+			"allTests": [
+				{
+					"Health check should be \"OK\"": true
+				},
+				{
+					"Health check should be \"OK\"": true
+				},
+				{
+					"Health check should be \"OK\"": true
+				},
+				{
+					"Health check should be \"OK\"": true
+				},
+				{
+					"Health check should be \"OK\"": true
+				},
+				{
+					"Health check should be \"OK\"": true
+				},
+				{
+					"Health check should be \"OK\"": true
+				},
+				{
+					"Health check should be \"OK\"": true
+				},
+				{
+					"Health check should be \"OK\"": true
+				},
+				{
+					"Health check should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "c541a07c-66c9-4451-92d0-270c029fcf97",
+			"name": "/api/create-account",
+			"time": 87,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {
+				"Create user": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Create user": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				114,
+				88,
+				81,
+				93,
+				81,
+				83,
+				90,
+				87,
+				82,
+				87
+			],
+			"allTests": [
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "e77bfa66-2e7b-4880-87fd-cf5dc15d6c55",
+			"name": "/api/change-password/<username>",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Changing password": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Changing password": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				75,
+				64,
+				59,
+				90,
+				68,
+				62,
+				75,
+				69,
+				65,
+				68
+			],
+			"allTests": [
+				{
+					"Changing password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Changing password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Changing password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Changing password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Changing password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Changing password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Changing password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Changing password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Changing password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Changing password": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "a2bef08b-52c8-4174-9ec7-d5322008d6d0",
+			"name": "/api/login",
+			"time": 61,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Login": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Login": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				51,
+				45,
+				40,
+				65,
+				60,
+				42,
+				46,
+				52,
+				48,
+				61
+			],
+			"allTests": [
+				{
+					"Login": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Login": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Login": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Login": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Login": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Login": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Login": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Login": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Login": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Login": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "0e488134-b355-40aa-afd4-19a85a941cb8",
+			"name": "/api/add-user",
+			"time": 94,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {
+				"Create user": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Create user": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				130,
+				109,
+				101,
+				109,
+				110,
+				154,
+				117,
+				114,
+				132,
+				94
+			],
+			"allTests": [
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "33e901d9-72e7-4eba-b50f-48e336caabcd",
+			"name": "/api/get-user/<username>",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get user by username": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get user by username": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				73,
+				62,
+				53,
+				152,
+				54,
+				82,
+				59,
+				146,
+				65,
+				66
+			],
+			"allTests": [
+				{
+					"Get user by username": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get user by username": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get user by username": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get user by username": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get user by username": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get user by username": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get user by username": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get user by username": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get user by username": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get user by username": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "49644e4c-e354-47e2-9c6f-b79d459e5f31",
+			"name": "/api/edit-user/<username>",
+			"time": 106,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Create user": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Create user": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				124,
+				111,
+				119,
+				152,
+				95,
+				117,
+				107,
+				133,
+				130,
+				106
+			],
+			"allTests": [
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Create user": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "d44fea12-616a-4548-865a-f84c837a792e",
+			"name": "/api/get-users",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get all users": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get all users": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				78,
+				72,
+				61,
+				67,
+				61,
+				72,
+				163,
+				74,
+				154,
+				90
+			],
+			"allTests": [
+				{
+					"Get all users": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all users": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all users": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all users": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all users": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all users": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all users": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all users": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all users": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all users": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "152d5426-f21d-4057-8a2e-5d6765733bba",
+			"name": "/api/delete-user/<username> added user",
+			"time": 60,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Delete added user": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Delete added user": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				72,
+				76,
+				57,
+				61,
+				58,
+				61,
+				90,
+				64,
+				112,
+				60
+			],
+			"allTests": [
+				{
+					"Delete added user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete added user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete added user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete added user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete added user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete added user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete added user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete added user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete added user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete added user": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "a5714f6e-ad79-4582-a318-873410a83a2c",
+			"name": "/api/get-users-by-role/<role>",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get users by role": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get users by role": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				70,
+				76,
+				60,
+				61,
+				65,
+				55,
+				65,
+				63,
+				64,
+				82
+			],
+			"allTests": [
+				{
+					"Get users by role": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get users by role": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get users by role": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get users by role": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get users by role": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get users by role": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get users by role": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get users by role": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get users by role": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get users by role": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "4c91fb04-5a67-40ad-beb8-76fe5f1d7785",
+			"name": "/api/get-dishes",
+			"time": 61,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get dishes": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get dishes": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				61,
+				63,
+				55,
+				67,
+				58,
+				58,
+				63,
+				73,
+				69,
+				61
+			],
+			"allTests": [
+				{
+					"Get dishes": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dishes": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dishes": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dishes": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dishes": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dishes": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dishes": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dishes": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dishes": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dishes": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "8331c594-3ea3-4e28-a1ab-192b909a61f1",
+			"name": "/api/add-dish",
+			"time": 149,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {
+				"Add dish": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Add dish": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				171,
+				161,
+				318,
+				189,
+				148,
+				152,
+				185,
+				177,
+				149,
+				149
+			],
+			"allTests": [
+				{
+					"Add dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add dish": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "62582b0c-a0fa-4566-91dc-033f1d815a8f",
+			"name": "/api/get-dish/<id>",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get dish": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get dish": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				150,
+				71,
+				98,
+				101,
+				71,
+				96,
+				76,
+				80,
+				72,
+				70
+			],
+			"allTests": [
+				{
+					"Get dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get dish": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "eb3f939a-0306-471b-9eaf-546364f377bc",
+			"name": "/api/edit-dish/<id>",
+			"time": 146,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Edit dish": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Edit dish": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				250,
+				145,
+				123,
+				182,
+				116,
+				139,
+				137,
+				124,
+				124,
+				146
+			],
+			"allTests": [
+				{
+					"Edit dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit dish": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "26841c79-b4a4-4908-b694-7906cac52dff",
+			"name": "/api/get-allergen/<id>",
+			"time": 61,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get allergen by id": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get allergen by id": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				58,
+				62,
+				54,
+				120,
+				64,
+				55,
+				65,
+				56,
+				55,
+				61
+			],
+			"allTests": [
+				{
+					"Get allergen by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergen by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergen by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergen by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergen by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergen by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergen by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergen by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergen by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergen by id": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "7533dc3c-148f-4a4f-b9e9-55293e43d56d",
+			"name": "/api/get-active-menu",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get active menu": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get active menu": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				60,
+				55,
+				56,
+				69,
+				52,
+				54,
+				60,
+				59,
+				56,
+				69
+			],
+			"allTests": [
+				{
+					"Get active menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get active menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get active menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get active menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get active menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get active menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get active menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get active menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get active menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get active menu": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "af0a71d4-aca2-4a9b-9b48-ee56a214ebe8",
+			"name": "/api/get-all-menu",
+			"time": 52,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get all menuss": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get all menuss": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				72,
+				55,
+				72,
+				85,
+				87,
+				69,
+				71,
+				67,
+				74,
+				52
+			],
+			"allTests": [
+				{
+					"Get all menuss": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all menuss": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all menuss": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all menuss": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all menuss": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all menuss": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all menuss": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all menuss": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all menuss": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all menuss": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "da2e238c-254f-4ac1-a36d-2d28c7a10e65",
+			"name": "/api/get-orders",
+			"time": 60,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get all orders": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get all orders": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				67,
+				60,
+				62,
+				87,
+				88,
+				91,
+				80,
+				63,
+				65,
+				60
+			],
+			"allTests": [
+				{
+					"Get all orders": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all orders": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all orders": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all orders": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all orders": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all orders": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all orders": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all orders": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all orders": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get all orders": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "9e9b4345-8fed-49f8-8f40-89ff68939937",
+			"name": "/api/get-allergens",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get allergens": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get allergens": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				61,
+				61,
+				57,
+				107,
+				55,
+				64,
+				69,
+				77,
+				61,
+				72
+			],
+			"allTests": [
+				{
+					"Get allergens": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergens": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergens": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergens": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergens": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergens": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergens": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergens": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergens": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get allergens": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "5b987b62-f70e-4685-9bc8-61482c600964",
+			"name": "/api/get-worktime-statistics",
+			"time": 275,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get working time statistics": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get working time statistics": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				306,
+				266,
+				296,
+				407,
+				281,
+				274,
+				282,
+				283,
+				268,
+				275
+			],
+			"allTests": [
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "ef5e2cf8-1f35-472f-bd44-7e89a9fea5e3",
+			"name": "/api/get-sales-statistics",
+			"time": 1001,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get sales statistics": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get sales statistics": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				933,
+				936,
+				936,
+				1301,
+				904,
+				934,
+				977,
+				978,
+				964,
+				1001
+			],
+			"allTests": [
+				{
+					"Get sales statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get sales statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get sales statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get sales statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get sales statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get sales statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get sales statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get sales statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get sales statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get sales statistics": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "48052d18-dca9-4cad-afb9-5ddcf9503e34",
+			"name": "/api/add-menu",
+			"time": 192,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {
+				"Add menu": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Add menu": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				174,
+				136,
+				137,
+				256,
+				153,
+				162,
+				146,
+				150,
+				136,
+				192
+			],
+			"allTests": [
+				{
+					"Add menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add menu": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "43b95f8f-9e8b-49bc-9e75-c90546438ffd",
+			"name": "/api/edit-menu/<id>",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Edit menu": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Edit menu": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				150,
+				139,
+				138,
+				178,
+				116,
+				132,
+				147,
+				145,
+				132,
+				145
+			],
+			"allTests": [
+				{
+					"Edit menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit menu": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "d68ab97b-d121-4581-bc55-0ad4f407d06e",
+			"name": "/api/get-menu/<id>",
+			"time": 84,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get menu by id": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get menu by id": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				70,
+				66,
+				533,
+				102,
+				61,
+				66,
+				69,
+				79,
+				78,
+				84
+			],
+			"allTests": [
+				{
+					"Get menu by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get menu by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get menu by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get menu by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get menu by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get menu by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get menu by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get menu by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get menu by id": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get menu by id": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "464b9206-f7c9-4759-8d25-97eca0261693",
+			"name": "/api/add-order",
+			"time": 214,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {
+				"Add order": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Add order": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				224,
+				192,
+				265,
+				377,
+				180,
+				206,
+				203,
+				206,
+				220,
+				214
+			],
+			"allTests": [
+				{
+					"Add order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add order": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "48b0bd79-aaac-44ea-bf62-ee158cc3d075",
+			"name": "/api/edit-order/<id>",
+			"time": 294,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Edit order": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Edit order": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				235,
+				238,
+				291,
+				308,
+				223,
+				235,
+				254,
+				218,
+				228,
+				294
+			],
+			"allTests": [
+				{
+					"Edit order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit order": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "900ff631-2fd8-480a-bc36-24ca63c0b033",
+			"name": "/api/get-order/<id>",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get order": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get order": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				68,
+				71,
+				96,
+				85,
+				161,
+				68,
+				74,
+				69,
+				70,
+				109
+			],
+			"allTests": [
+				{
+					"Get order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "e584acef-d545-4bd1-bf82-21d730bb445e",
+			"name": "/api/summary-order/<id>",
+			"time": 224,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Summary": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Summary": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				94,
+				97,
+				111,
+				133,
+				239,
+				101,
+				133,
+				111,
+				96,
+				224
+			],
+			"allTests": [
+				{
+					"Summary": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Summary": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Summary": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Summary": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Summary": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Summary": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Summary": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Summary": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Summary": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Summary": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "5c253171-277f-4dd3-a1a5-95525200b50d",
+			"name": "/api/add-invoice/<id>",
+			"time": 191,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Add invoice to order": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Add invoice to order": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				112,
+				102,
+				105,
+				119,
+				166,
+				110,
+				126,
+				106,
+				135,
+				191
+			],
+			"allTests": [
+				{
+					"Add invoice to order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add invoice to order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add invoice to order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add invoice to order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add invoice to order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add invoice to order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add invoice to order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add invoice to order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add invoice to order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add invoice to order": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "c34ebaa5-b721-4eb8-a95f-3501e1169c98",
+			"name": "/api/get-invoice/<id>",
+			"time": 62,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get order invoice": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get order invoice": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				59,
+				58,
+				57,
+				114,
+				69,
+				63,
+				58,
+				58,
+				134,
+				62
+			],
+			"allTests": [
+				{
+					"Get order invoice": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order invoice": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order invoice": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order invoice": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order invoice": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order invoice": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order invoice": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order invoice": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order invoice": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get order invoice": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "375a2167-e979-4fa6-b5e1-b1d39b32aee6",
+			"name": "/api/pay-order/<id>",
+			"time": 146,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Payed order": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Payed order": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				116,
+				133,
+				119,
+				133,
+				107,
+				118,
+				216,
+				118,
+				1283,
+				146
+			],
+			"allTests": [
+				{
+					"Payed order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Payed order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Payed order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Payed order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Payed order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Payed order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Payed order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Payed order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Payed order": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Payed order": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "09c12d1f-ca51-4cf2-8bd6-acc753aca417",
+			"name": "/api/get-waiter-sales-statistics/<id>",
+			"time": 112,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get working time statistics": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get working time statistics": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				102,
+				120,
+				112,
+				142,
+				129,
+				236,
+				119,
+				164,
+				109,
+				112
+			],
+			"allTests": [
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "fd1a7797-a22e-4330-90e5-117c0d0df411",
+			"name": "/api/delete-order/<id>",
+			"time": 113,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"User deleted": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"User deleted": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				119,
+				160,
+				123,
+				122,
+				97,
+				105,
+				107,
+				102,
+				98,
+				113
+			],
+			"allTests": [
+				{
+					"User deleted": true,
+					"JSON schema is valid": true
+				},
+				{
+					"User deleted": true,
+					"JSON schema is valid": true
+				},
+				{
+					"User deleted": true,
+					"JSON schema is valid": true
+				},
+				{
+					"User deleted": true,
+					"JSON schema is valid": true
+				},
+				{
+					"User deleted": true,
+					"JSON schema is valid": true
+				},
+				{
+					"User deleted": true,
+					"JSON schema is valid": true
+				},
+				{
+					"User deleted": true,
+					"JSON schema is valid": true
+				},
+				{
+					"User deleted": true,
+					"JSON schema is valid": true
+				},
+				{
+					"User deleted": true,
+					"JSON schema is valid": true
+				},
+				{
+					"User deleted": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "9eff8ac6-5cb7-4767-b4c2-8030cb6d6442",
+			"name": "/api/delete-menu/<id>",
+			"time": 108,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Delete menu": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Delete menu": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				100,
+				175,
+				97,
+				155,
+				93,
+				99,
+				98,
+				109,
+				99,
+				108
+			],
+			"allTests": [
+				{
+					"Delete menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete menu": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete menu": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "c8caf63a-866f-4a7f-83e7-5ddfe1430676",
+			"name": "/api/delete-dish/<id>",
+			"time": 133,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Delete dish": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Delete dish": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				142,
+				154,
+				189,
+				155,
+				121,
+				137,
+				149,
+				149,
+				131,
+				133
+			],
+			"allTests": [
+				{
+					"Delete dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete dish": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete dish": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "5b8df7c8-7577-491f-bfed-3041e1ae3e1e",
+			"name": "/api/forgot-password",
+			"time": 61,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Reset password": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Reset password": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				62,
+				59,
+				70,
+				66,
+				63,
+				61,
+				61,
+				62,
+				109,
+				61
+			],
+			"allTests": [
+				{
+					"Reset password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Reset password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Reset password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Reset password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Reset password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Reset password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Reset password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Reset password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Reset password": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Reset password": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "6ce777c8-e614-4aa2-90e6-f8ccd8db817b",
+			"name": "/api/add-unavailability",
+			"time": 315,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Send unavailability": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Send unavailability": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				916,
+				319,
+				349,
+				335,
+				325,
+				605,
+				306,
+				341,
+				354,
+				315
+			],
+			"allTests": [
+				{
+					"Send unavailability": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Send unavailability": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Send unavailability": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Send unavailability": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Send unavailability": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Send unavailability": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Send unavailability": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Send unavailability": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Send unavailability": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Send unavailability": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "79c9ad16-1bb5-405c-8ede-96ddf2bd2912",
+			"name": "/api/add-working-time",
+			"time": 147,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {
+				"Add working time": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Add working time": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				146,
+				142,
+				115,
+				114,
+				115,
+				127,
+				139,
+				140,
+				154,
+				147
+			],
+			"allTests": [
+				{
+					"Add working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add working time": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "fe2abee9-2aa2-4f38-8e6a-deb3335328f0",
+			"name": "/api/get-working-time/<username>",
+			"time": 98,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get working time": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get working time": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				93,
+				73,
+				134,
+				73,
+				59,
+				77,
+				74,
+				74,
+				90,
+				98
+			],
+			"allTests": [
+				{
+					"Get working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "39fd2875-5022-4f23-957d-9de06e9bee96",
+			"name": "/api/edit-working-time/<id>",
+			"time": 149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Edit working time": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Edit working time": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				141,
+				138,
+				219,
+				145,
+				130,
+				159,
+				128,
+				132,
+				169,
+				149
+			],
+			"allTests": [
+				{
+					"Edit working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit working time": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "72e95894-0878-4547-a5c9-17dcbd89a872",
+			"name": "/api/get-worktime-statistics/<id>",
+			"time": 102,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get working time statistics": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get working time statistics": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				71,
+				66,
+				69,
+				75,
+				70,
+				80,
+				76,
+				74,
+				76,
+				102
+			],
+			"allTests": [
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get working time statistics": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "06f6d732-ef77-4508-b2cb-41d441b1ab65",
+			"name": "/api/add-break-time",
+			"time": 101,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {
+				"Add break time": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Add break time": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				93,
+				95,
+				138,
+				117,
+				91,
+				109,
+				92,
+				107,
+				106,
+				101
+			],
+			"allTests": [
+				{
+					"Add break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add break time": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "d90eee06-ba67-4168-8195-82796cab6f79",
+			"name": "/api/edit-break-time/<id>",
+			"time": 112,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Edit break time": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Edit break time": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				103,
+				123,
+				116,
+				105,
+				97,
+				103,
+				115,
+				133,
+				106,
+				112
+			],
+			"allTests": [
+				{
+					"Edit break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit break time": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "55ab9aaa-7368-454d-bb80-05b140200916",
+			"name": "/api/get-break-time",
+			"time": 65,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get break time": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get break time": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				70,
+				78,
+				63,
+				56,
+				56,
+				59,
+				62,
+				55,
+				64,
+				65
+			],
+			"allTests": [
+				{
+					"Get break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get break time": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "55d000b2-b64e-4aae-aa73-7003846a62c1",
+			"name": "/api/add-holiday",
+			"time": 435,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Add holiday": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Add holiday": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				421,
+				458,
+				466,
+				399,
+				349,
+				399,
+				407,
+				399,
+				421,
+				435
+			],
+			"allTests": [
+				{
+					"Add holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Add holiday": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "0a1bee00-a359-4b77-84cf-f038f6ee94ac",
+			"name": "/api/get-holiday/<username>",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get holiday": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get holiday": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				77,
+				76,
+				88,
+				94,
+				62,
+				71,
+				74,
+				86,
+				76,
+				68
+			],
+			"allTests": [
+				{
+					"Get holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holiday": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "cdedcf45-89ca-4944-b78f-2f77b871e6de",
+			"name": "/api/get-holidays",
+			"time": 60,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get holidays": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Get holidays": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				58,
+				66,
+				164,
+				63,
+				61,
+				74,
+				57,
+				86,
+				56,
+				60
+			],
+			"allTests": [
+				{
+					"Get holidays": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holidays": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holidays": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holidays": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holidays": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holidays": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holidays": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holidays": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holidays": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Get holidays": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "d6b2dd06-06d6-4da7-9bef-a0fdabdc6d25",
+			"name": "/api/edit-holiday/<id>",
+			"time": 132,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Edit holiday": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Edit holiday": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				129,
+				134,
+				143,
+				156,
+				106,
+				129,
+				119,
+				147,
+				234,
+				132
+			],
+			"allTests": [
+				{
+					"Edit holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Edit holiday": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "c1781340-4a6b-4e9e-b0a0-bc393ec34ca9",
+			"name": "/api/delete-holiday/<id>",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Delete holiday": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Delete holiday": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				71,
+				78,
+				84,
+				81,
+				77,
+				75,
+				81,
+				73,
+				72,
+				69
+			],
+			"allTests": [
+				{
+					"Delete holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete holiday": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete holiday": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "60b58dcc-0327-4aff-959d-07c204421e01",
+			"name": "/api/delete-break-time/<id>",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Delete break time": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Delete break time": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				72,
+				74,
+				101,
+				73,
+				65,
+				69,
+				71,
+				71,
+				82,
+				90
+			],
+			"allTests": [
+				{
+					"Delete break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete break time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete break time": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "22f1dbf7-3243-40f8-a579-3e81531b15d9",
+			"name": "/api/delete-working-time/<id>",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Delete working time": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Delete working time": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				105,
+				67,
+				79,
+				74,
+				59,
+				78,
+				75,
+				91,
+				98,
+				82
+			],
+			"allTests": [
+				{
+					"Delete working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete working time": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete working time": true,
+					"JSON schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "3b491823-0fe7-46c3-bc14-7d6d5469d6df",
+			"name": "/api/delete-user/<username>",
+			"time": 75,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Delete user": true,
+				"JSON schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Delete user": {
+					"pass": 10,
+					"fail": 0
+				},
+				"JSON schema is valid": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				213,
+				60,
+				78,
+				211,
+				51,
+				64,
+				57,
+				60,
+				123,
+				75
+			],
+			"allTests": [
+				{
+					"Delete user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete user": true,
+					"JSON schema is valid": true
+				},
+				{
+					"Delete user": true,
+					"JSON schema is valid": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 72020,
+	"collection": {
+		"requests": [
+			{
+				"id": "b5f762d2-125f-4f3c-ba10-d32587ecaf3f",
+				"method": "GET"
+			},
+			{
+				"id": "c541a07c-66c9-4451-92d0-270c029fcf97",
+				"method": "PUT"
+			},
+			{
+				"id": "e77bfa66-2e7b-4880-87fd-cf5dc15d6c55",
+				"method": "PATCH"
+			},
+			{
+				"id": "a2bef08b-52c8-4174-9ec7-d5322008d6d0",
+				"method": "POST"
+			},
+			{
+				"id": "0e488134-b355-40aa-afd4-19a85a941cb8",
+				"method": "PUT"
+			},
+			{
+				"id": "33e901d9-72e7-4eba-b50f-48e336caabcd",
+				"method": "GET"
+			},
+			{
+				"id": "49644e4c-e354-47e2-9c6f-b79d459e5f31",
+				"method": "PATCH"
+			},
+			{
+				"id": "d44fea12-616a-4548-865a-f84c837a792e",
+				"method": "GET"
+			},
+			{
+				"id": "152d5426-f21d-4057-8a2e-5d6765733bba",
+				"method": "DELETE"
+			},
+			{
+				"id": "a5714f6e-ad79-4582-a318-873410a83a2c",
+				"method": "GET"
+			},
+			{
+				"id": "4c91fb04-5a67-40ad-beb8-76fe5f1d7785",
+				"method": "GET"
+			},
+			{
+				"id": "8331c594-3ea3-4e28-a1ab-192b909a61f1",
+				"method": "PUT"
+			},
+			{
+				"id": "62582b0c-a0fa-4566-91dc-033f1d815a8f",
+				"method": "GET"
+			},
+			{
+				"id": "eb3f939a-0306-471b-9eaf-546364f377bc",
+				"method": "PATCH"
+			},
+			{
+				"id": "26841c79-b4a4-4908-b694-7906cac52dff",
+				"method": "GET"
+			},
+			{
+				"id": "7533dc3c-148f-4a4f-b9e9-55293e43d56d",
+				"method": "GET"
+			},
+			{
+				"id": "af0a71d4-aca2-4a9b-9b48-ee56a214ebe8",
+				"method": "GET"
+			},
+			{
+				"id": "da2e238c-254f-4ac1-a36d-2d28c7a10e65",
+				"method": "GET"
+			},
+			{
+				"id": "9e9b4345-8fed-49f8-8f40-89ff68939937",
+				"method": "GET"
+			},
+			{
+				"id": "5b987b62-f70e-4685-9bc8-61482c600964",
+				"method": "POST"
+			},
+			{
+				"id": "ef5e2cf8-1f35-472f-bd44-7e89a9fea5e3",
+				"method": "POST"
+			},
+			{
+				"id": "48052d18-dca9-4cad-afb9-5ddcf9503e34",
+				"method": "PUT"
+			},
+			{
+				"id": "43b95f8f-9e8b-49bc-9e75-c90546438ffd",
+				"method": "PATCH"
+			},
+			{
+				"id": "d68ab97b-d121-4581-bc55-0ad4f407d06e",
+				"method": "GET"
+			},
+			{
+				"id": "464b9206-f7c9-4759-8d25-97eca0261693",
+				"method": "PUT"
+			},
+			{
+				"id": "48b0bd79-aaac-44ea-bf62-ee158cc3d075",
+				"method": "PATCH"
+			},
+			{
+				"id": "900ff631-2fd8-480a-bc36-24ca63c0b033",
+				"method": "GET"
+			},
+			{
+				"id": "e584acef-d545-4bd1-bf82-21d730bb445e",
+				"method": "PATCH"
+			},
+			{
+				"id": "5c253171-277f-4dd3-a1a5-95525200b50d",
+				"method": "PATCH"
+			},
+			{
+				"id": "c34ebaa5-b721-4eb8-a95f-3501e1169c98",
+				"method": "GET"
+			},
+			{
+				"id": "375a2167-e979-4fa6-b5e1-b1d39b32aee6",
+				"method": "PATCH"
+			},
+			{
+				"id": "09c12d1f-ca51-4cf2-8bd6-acc753aca417",
+				"method": "POST"
+			},
+			{
+				"id": "fd1a7797-a22e-4330-90e5-117c0d0df411",
+				"method": "DELETE"
+			},
+			{
+				"id": "9eff8ac6-5cb7-4767-b4c2-8030cb6d6442",
+				"method": "DELETE"
+			},
+			{
+				"id": "c8caf63a-866f-4a7f-83e7-5ddfe1430676",
+				"method": "DELETE"
+			},
+			{
+				"id": "5b8df7c8-7577-491f-bfed-3041e1ae3e1e",
+				"method": "POST"
+			},
+			{
+				"id": "6ce777c8-e614-4aa2-90e6-f8ccd8db817b",
+				"method": "POST"
+			},
+			{
+				"id": "79c9ad16-1bb5-405c-8ede-96ddf2bd2912",
+				"method": "PUT"
+			},
+			{
+				"id": "fe2abee9-2aa2-4f38-8e6a-deb3335328f0",
+				"method": "GET"
+			},
+			{
+				"id": "39fd2875-5022-4f23-957d-9de06e9bee96",
+				"method": "PATCH"
+			},
+			{
+				"id": "72e95894-0878-4547-a5c9-17dcbd89a872",
+				"method": "POST"
+			},
+			{
+				"id": "06f6d732-ef77-4508-b2cb-41d441b1ab65",
+				"method": "PUT"
+			},
+			{
+				"id": "d90eee06-ba67-4168-8195-82796cab6f79",
+				"method": "PATCH"
+			},
+			{
+				"id": "55ab9aaa-7368-454d-bb80-05b140200916",
+				"method": "GET"
+			},
+			{
+				"id": "55d000b2-b64e-4aae-aa73-7003846a62c1",
+				"method": "PUT"
+			},
+			{
+				"id": "0a1bee00-a359-4b77-84cf-f038f6ee94ac",
+				"method": "GET"
+			},
+			{
+				"id": "cdedcf45-89ca-4944-b78f-2f77b871e6de",
+				"method": "GET"
+			},
+			{
+				"id": "d6b2dd06-06d6-4da7-9bef-a0fdabdc6d25",
+				"method": "PATCH"
+			},
+			{
+				"id": "c1781340-4a6b-4e9e-b0a0-bc393ec34ca9",
+				"method": "DELETE"
+			},
+			{
+				"id": "60b58dcc-0327-4aff-959d-07c204421e01",
+				"method": "DELETE"
+			},
+			{
+				"id": "22f1dbf7-3243-40f8-a579-3e81531b15d9",
+				"method": "DELETE"
+			},
+			{
+				"id": "3b491823-0fe7-46c3-bc14-7d6d5469d6df",
+				"method": "DELETE"
+			}
+		]
+	}
+}

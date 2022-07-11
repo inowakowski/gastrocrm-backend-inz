@@ -1,0 +1,26 @@
+FROM python:3.9.10-alpine 
+RUN apk add -U \
+    gcc \
+    build-base \
+    linux-headers \
+    ca-certificates \
+    python3-dev \
+    libffi-dev \
+    libressl-dev \
+    libxslt-dev \
+    mariadb-connector-c \
+    mariadb-dev \
+    curl
+RUN adduser -u 1000 -DSG www-data www-data
+COPY --chown=www-data:www-data requirements.txt .
+USER www-data
+RUN pip install --user -r requirements.txt
+COPY --chown=www-data:www-data gunicorn.conf.py .
+WORKDIR /app
+USER www-data
+ENV PATH=/home/www-data/.local/bin:$PATH
+ENV ENVIRONMENT=production
+RUN python -m pip install --upgrade pip
+EXPOSE 8080
+CMD [ "gunicorn", "-c", "/gunicorn.conf.py", "app:app" ]
+HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 CMD [ "curl", "-f", "localhost:8080/api/health" ]

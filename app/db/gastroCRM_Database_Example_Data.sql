@@ -1,0 +1,5 @@
+INSERT INTO uzytkownik( imie, nazwisko, telefon, email, nazwaUzytkownika, haslo, uprawnienia) VALUES( 'Jan', 'Kowalski', '783123654','admin@gastrocrm.online', 'jan.kowalski', 'jan.kowalski', 'administrator');
+INSERT INTO uzytkownik( imie, nazwisko, telefon, email,`nazwaUzytkownika`, haslo, `uprawnienia`) VALUES( 'Anna', 'Manager', '789345678','a.manager@gastrocrm.online', 'anna.manager', 'anna.manager', 'manager');
+INSERT INTO uzytkownik( imie, nazwisko, telefon, email,`nazwaUzytkownika`, haslo, `uprawnienia`) VALUES( 'Monika', 'Kelner', '123456789','m.kelner@gastrocrm.online', 'monika.kelner', 'monika.kelner', 'kelner');
+INSERT INTO uzytkownik( imie, nazwisko, telefon, email,`nazwaUzytkownika`, haslo, `uprawnienia`) VALUES( 'Zygmunt', 'Szefunio', '987654321', 'z.szefunio@gastrocrm.online','zygmunt.szefunio', 'zygmunt.szefunio', 'szef');
+INSERT INTO uzytkownik( imie, nazwisko, telefon, email,`nazwaUzytkownika`, haslo, `uprawnienia`) VALUES( 'Piotr', 'Kelner', '789232312', 'p.kelner@gastrocrm.online', 'piotr.kelner', 'piotr.kelner', 'kelner');

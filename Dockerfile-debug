@@ -1,0 +1,15 @@
+FROM python:3.7.13
+COPY --chown=www-data:www-data requirements.txt .
+COPY --chown=www-data:www-data ./app /app
+COPY --chown=www-data:www-data gunicorn.conf.py /app
+COPY --chown=www-data:www-data /app/credentials.prod.py /app/credentials.py
+ENV PATH=/var/www/.local/bin:$PATH
+ENV MYSQL_HOST=mariadb MYSQL_PORT=3306
+RUN mkdir -p /var/www && chown -R www-data:www-data /var/www
+USER www-data
+RUN pip install --user -r requirements.txt && \
+    echo "gunicorn -c gunicorn.conf.py app:app" > /app/run.sh
+WORKDIR /app
+EXPOSE 8080
+CMD [ "tail", "-f", "/var/log/dpkg.log" ]
+HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 CMD [ "curl", "-f", "localhost:8080/api/health" ]

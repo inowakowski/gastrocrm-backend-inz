@@ -1,0 +1,10 @@
+import os
+
+MYSQL_USER=os.environ['MYSQL_USER']
+MYSQL_PASSWORD=os.environ['MYSQL_PASSWORD']
+MYSQL_HOST=os.environ['MYSQL_HOST']
+MYSQL_PORT=os.environ['MYSQL_PORT']
+MYSQL_DATABASE=os.environ['MYSQL_DATABASE']
+
+SECRET_APP_KEY=os.environ['SECRET_APP_KEY']
+SENDGRID_API_KEY=os.environ['SENDGRID_API_KEY']
