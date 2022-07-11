@@ -1,0 +1,66 @@
+name: Deploy latest image
+on: workflow_dispatch
+
+env:
+  PROJECT_SERV_DIR: /home/www/gastrocrm.online/
+
+jobs:
+  
+  DEPLOY_APP:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Create required path on server
+      uses: appleboy/ssh-action@v0.1.4
+      env:
+        MYSQL_ROOT_PASSWORD: ${{ secrets.MYSQL_ROOT_PASSWORD }}
+        MYSQL_DATABASE: ${{ secrets.MYSQL_DATABASE }}
+        MYSQL_USER: ${{ secrets.MYSQL_USER }}
+        MYSQL_PASSWORD: ${{ secrets.MYSQL_PASSWORD }}
+        SECRET_APP_KEY: ${{ secrets.SECRET_APP_KEY }}
+        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+      with:
+        host: ${{ secrets.SERVER_HOST }}
+        port: ${{ secrets.SERVER_PORT }}
+        username: ${{ secrets.DEPLOY_USER }}
+        key: ${{ secrets.SSH_DEPLOY_KEY }}
+        script_stop: true
+        envs: MYSQL_ROOT_PASSWORD, MYSQL_DATABASE, MYSQL_USER, MYSQL_PASSWORD, PROJECT_SERV_DIR, SECRET_APP_KEY, SENDGRID_API_KEY
+        script: |
+          mkdir -p $PROJECT_SERV_DIR
+          cd $PROJECT_SERV_DIR
+          echo MYSQL_ROOT_PASSWORD="$MYSQL_ROOT_PASSWORD" > .env.secret
+          echo MYSQL_DATABASE="$MYSQL_DATABASE" >> .env.secret
+          echo MYSQL_USER="$MYSQL_USER" >> .env.secret
+          echo MYSQL_PASSWORD="$MYSQL_PASSWORD" >> .env.secret
+          echo SECRET_APP_KEY="$SECRET_APP_KEY" >> .env.secret
+          echo SENDGRID_API_KEY="$SENDGRID_API_KEY" >> .env.secret
+
+    - name: Deploy infra to server
+      uses: easingthemes/ssh-deploy@v2
+      env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_DEPLOY_KEY_PEM }}
+          REMOTE_HOST: ${{ secrets.SERVER_HOST }}
+          REMOTE_USER: ${{ secrets.DEPLOY_USER }}
+          REMOTE_PORT: ${{ secrets.SERVER_PORT }}
+          SOURCE: "infra-docker-app/"
+          TARGET: ${{ env.PROJECT_SERV_DIR }}
+          ARGS: "-rltzvO --chown=inz_deploy:www-data"
+
+    - name: Run new docker image
+      uses: appleboy/ssh-action@v0.1.4
+      with:
+        host: ${{ secrets.SERVER_HOST }}
+        port: ${{ secrets.SERVER_PORT }}
+        username: ${{ secrets.DEPLOY_USER }}
+        key: ${{ secrets.SSH_DEPLOY_KEY }}
+        script_stop: true
+        envs: PROJECT_SERV_DIR
+        script: |
+          cd $PROJECT_SERV_DIR
+          echo ${{ secrets.DOCKERHUB_TOKEN }} | docker login -u srozdzynski --password-stdin
+          docker-compose pull
+          docker-compose up -d
+            
