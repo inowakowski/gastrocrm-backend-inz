@@ -1,66 +1,68 @@
 # gasrocrm-backend
 
-## CI/CD status
-[![Scan & Build & Push](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend/actions/workflows/build.yml/badge.svg)](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend/actions/workflows/build.yml)
+## Projekt zamknięty.
 
-[![Deploy image](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend/actions/workflows/deploy.yml/badge.svg)](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend/actions/workflows/deploy.yml)
+<!-- ## CI/CD status
+[![Scan & Build & Push](https://github.com/inowakowski/gastrocrm-backend-inz/actions/workflows/build.yml/badge.svg)](https://github.com/inowakowski/gastrocrm-backend-inz/actions/workflows/build.yml)
+
+[![Deploy image](https://github.com/inowakowski/gastrocrm-backend-inz/actions/workflows/deploy.yml/badge.svg)](https://github.com/inowakowski/gastrocrm-backend-inz/actions/workflows/deploy.yml) -->
 
 ## Backend aplikacji GastroCRM
 
 | Method | Endpoint                                  | Status         |
 |------- | -------------                             |:--------------:|
-|`GET`   | [`/api/health`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apihealth)| done |
-|`GET`   | [`/api/get-users`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-users) | done |
-|`GET`   | [`/api/get-user/<username>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-userusername) | done |
-|`GET`   | [`/api/get-users-by-role/<role>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-users-by-rolerole) | done |
-|`GET`   | [`/api/get-dishes`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-dishes) | done |
-|`GET`   | [`/api/get-orders`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-orders) | done |
-|`GET`   | [`/api/get-order/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-orderid) | done |
-|`GET`   | [`/api/get-dish/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-dishid) | done |
-|`GET`   | [`/api/get-menu/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-menuid) | done |
-|`GET`   | [`/api/get-all-menu`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-menuid) | done |
-|`GET`   | [`/api/get-allergen/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-allergenid) | done |
-|`GET`   | [`/api/get-allergens`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-allergens) | done |
-|`GET`   | [`/api/get-active-menu`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-active-menu) | done |
-|`GET`   | [`/api/get-get-invoice/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-invoiceid) | done |
-|`GET`   | [`/api/get-get-break-time`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-break-time) | done |
-|`GET`   | [`/api/get-holidays`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-holidays) | done |
-|`GET`   | [`/api/get-holiday/<username>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-holidayusername) | done |
-|`GET`   | [`/api/get-worktime-statistics`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-worktime-statistics) | done |
-|`GET`   | [`/api/get-sales-statistics`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-sales-statistics) | done |
-|`GET`   | [`/api/get-waiter-sales-statistics/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-waiter-sales-statisticsid) | to do |
-|`POST`  | [`/api/login`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#post-apilogin) | done |
-|`POST`  | [`/api/forgot_password`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#post-apiforgot-password) | done |
-|`POST`  | [`/api/add-unavailability`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#put-apiadd-unavailability) | done |
-|`PUT`   | [`/api/create-account`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#put-apicreate-account) | done |
-|`PUT`   | [`/api/add-user`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#put-apiadd-user) | done |
-|`PUT`   | [`/api/add-dish`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#put-apiadd-dish) | done |
-|`PUT`   | [`/api/add-menu`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#put-apiadd-menu) | done |
-|`PUT`   | [`/api/add-working-time`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#put-apiadd-working-time) | done |
-|`PUT`   | [`/api/add-break-time`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#put-apiadd-break-time) | done |
-|`PUT`   | [`/api/add-holiday`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#put-apiadd-holiday) | done |
-|`PUT`   | [`/api/add-order`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#put-apiadd-order) | done |
-|`PATCH` | [`/api/change-password/<username>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#patch-apichange-passwordusername) | done |
-|`PATCH` | [`/api/edit-user/<username>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#patch-apiedit-userusername) | done |
-|`PATCH` | [`/api/edit-dish/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#patch-apiedit-dishid) | done |
-|`PATCH` | [`/api/edit-menu/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#patch-apiedit-menuid) | done |
-|`PATCH` | [`/api/edit-order/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#put-apiedit-orderid) | done |
-|`PATCH` | [`/api/summary-order/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#put-apiedit-orderid) | done |
-|`PATCH` | [`/api/edit-break-time/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#patch-apiedit-break-timeid) | done |
-|`PATCH` | [`/api/edit-holiday/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#patch-apiedit-holidayid) | done |
-|`PATCH` | [`/api/pay-order/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#patch-apipay-order) | done |
-|`DELETE`| [`/api/delete-user/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#delete-apidelete-userusername) | done |
-|`DELETE`| [`/api/delete-dish/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#delete-apidelete-dishid)  | done |
-|`DELETE`| [`/api/delete-menu/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#delete-apidelete-menuid) | done |
-|`DELETE`| [`/api/delete-break-time/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#delete-apidelete-break-timeid) | done |
-|`DELETE`| [`/api/delete-holiday/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#delete-apidelete-holidayid) | done |
-|`DELETE`| [`/api/delete-order/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#delete-apidelete-orderid) | done |
-<!-- |`GET`   | [`/api/get-category`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#get-apiget-category) | done | -->
-<!-- |`PUT`   | [`/api/add-dish-to-menu/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#put-apiadd-dish-to-menuid) | to test | -->
-<!-- |`PUT`   | [`/api/add-category`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#put-apiadd-category) | done | -->
-<!-- |`PATCH` | [`/api/edit-working-time/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#patch-apiedit-menuid) | to test | -->
-<!-- |`DELETE`| [`/api/delete-category/<name>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#delete-apidelete-categoryname) | done | -->
-<!-- |`DELETE`| [`/api/delete-dish-from-menu/<id>`](https://github.com/Praca-Inzynierska-CDV/gastrocrm-backend#delete-apidelete-dish-from-menuid) | to test | -->
+|`GET`   | [`/api/health`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apihealth)| done |
+|`GET`   | [`/api/get-users`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-users) | done |
+|`GET`   | [`/api/get-user/<username>`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-userusername) | done |
+|`GET`   | [`/api/get-users-by-role/<role>`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-users-by-rolerole) | done |
+|`GET`   | [`/api/get-dishes`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-dishes) | done |
+|`GET`   | [`/api/get-orders`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-orders) | done |
+|`GET`   | [`/api/get-order/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-orderid) | done |
+|`GET`   | [`/api/get-dish/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-dishid) | done |
+|`GET`   | [`/api/get-menu/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-menuid) | done |
+|`GET`   | [`/api/get-all-menu`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-menuid) | done |
+|`GET`   | [`/api/get-allergen/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-allergenid) | done |
+|`GET`   | [`/api/get-allergens`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-allergens) | done |
+|`GET`   | [`/api/get-active-menu`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-active-menu) | done |
+|`GET`   | [`/api/get-get-invoice/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-invoiceid) | done |
+|`GET`   | [`/api/get-get-break-time`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-break-time) | done |
+|`GET`   | [`/api/get-holidays`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-holidays) | done |
+|`GET`   | [`/api/get-holiday/<username>`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-holidayusername) | done |
+|`GET`   | [`/api/get-worktime-statistics`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-worktime-statistics) | done |
+|`GET`   | [`/api/get-sales-statistics`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-sales-statistics) | done |
+|`GET`   | [`/api/get-waiter-sales-statistics/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-waiter-sales-statisticsid) | to do |
+|`POST`  | [`/api/login`](https://github.com/inowakowski/gastrocrm-backend-inz#post-apilogin) | done |
+|`POST`  | [`/api/forgot_password`](https://github.com/inowakowski/gastrocrm-backend-inz#post-apiforgot-password) | done |
+|`POST`  | [`/api/add-unavailability`](https://github.com/inowakowski/gastrocrm-backend-inz#put-apiadd-unavailability) | done |
+|`PUT`   | [`/api/create-account`](https://github.com/inowakowski/gastrocrm-backend-inz#put-apicreate-account) | done |
+|`PUT`   | [`/api/add-user`](https://github.com/inowakowski/gastrocrm-backend-inz#put-apiadd-user) | done |
+|`PUT`   | [`/api/add-dish`](https://github.com/inowakowski/gastrocrm-backend-inz#put-apiadd-dish) | done |
+|`PUT`   | [`/api/add-menu`](https://github.com/inowakowski/gastrocrm-backend-inz#put-apiadd-menu) | done |
+|`PUT`   | [`/api/add-working-time`](https://github.com/inowakowski/gastrocrm-backend-inz#put-apiadd-working-time) | done |
+|`PUT`   | [`/api/add-break-time`](https://github.com/inowakowski/gastrocrm-backend-inz#put-apiadd-break-time) | done |
+|`PUT`   | [`/api/add-holiday`](https://github.com/inowakowski/gastrocrm-backend-inz#put-apiadd-holiday) | done |
+|`PUT`   | [`/api/add-order`](https://github.com/inowakowski/gastrocrm-backend-inz#put-apiadd-order) | done |
+|`PATCH` | [`/api/change-password/<username>`](https://github.com/inowakowski/gastrocrm-backend-inz#patch-apichange-passwordusername) | done |
+|`PATCH` | [`/api/edit-user/<username>`](https://github.com/inowakowski/gastrocrm-backend-inz#patch-apiedit-userusername) | done |
+|`PATCH` | [`/api/edit-dish/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#patch-apiedit-dishid) | done |
+|`PATCH` | [`/api/edit-menu/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#patch-apiedit-menuid) | done |
+|`PATCH` | [`/api/edit-order/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#put-apiedit-orderid) | done |
+|`PATCH` | [`/api/summary-order/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#put-apiedit-orderid) | done |
+|`PATCH` | [`/api/edit-break-time/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#patch-apiedit-break-timeid) | done |
+|`PATCH` | [`/api/edit-holiday/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#patch-apiedit-holidayid) | done |
+|`PATCH` | [`/api/pay-order/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#patch-apipay-order) | done |
+|`DELETE`| [`/api/delete-user/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#delete-apidelete-userusername) | done |
+|`DELETE`| [`/api/delete-dish/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#delete-apidelete-dishid)  | done |
+|`DELETE`| [`/api/delete-menu/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#delete-apidelete-menuid) | done |
+|`DELETE`| [`/api/delete-break-time/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#delete-apidelete-break-timeid) | done |
+|`DELETE`| [`/api/delete-holiday/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#delete-apidelete-holidayid) | done |
+|`DELETE`| [`/api/delete-order/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#delete-apidelete-orderid) | done |
+<!-- |`GET`   | [`/api/get-category`](https://github.com/inowakowski/gastrocrm-backend-inz#get-apiget-category) | done | -->
+<!-- |`PUT`   | [`/api/add-dish-to-menu/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#put-apiadd-dish-to-menuid) | to test | -->
+<!-- |`PUT`   | [`/api/add-category`](https://github.com/inowakowski/gastrocrm-backend-inz#put-apiadd-category) | done | -->
+<!-- |`PATCH` | [`/api/edit-working-time/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#patch-apiedit-menuid) | to test | -->
+<!-- |`DELETE`| [`/api/delete-category/<name>`](https://github.com/inowakowski/gastrocrm-backend-inz#delete-apidelete-categoryname) | done | -->
+<!-- |`DELETE`| [`/api/delete-dish-from-menu/<id>`](https://github.com/inowakowski/gastrocrm-backend-inz#delete-apidelete-dish-from-menuid) | to test | -->
 
 
 ## Uruchaminie aplikacji
